@@ -1,6 +1,6 @@
 # React Best Practices and Design Patterns
 
-![Design Patterns](/src/assets/Top-6-React-Design-Patterns.webp)
+![Design Patterns](/assets/Top-6-React-Design-Patterns.webp)
 
 
 This repository contains the code examples discussed in the article, organized for easy access and use in your own React projects. These examples demonstrate how to build scalable, maintainable, and high-quality React applications, implementing best practices and design patterns.
