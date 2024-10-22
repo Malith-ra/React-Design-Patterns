@@ -1,38 +1,74 @@
 # React Best Practices and Design Patterns
 
-Welcome to the code repository for the Medium article ["Best Practices and Design Patterns in React.js for High-Quality Applications".](https://medium.com/@obrm770/best-practices-and-design-patterns-in-react-js-for-high-quality-applications-6b203be747fb) 
-
-This repository contains the same code examples that were presented in the article, but in an organized and downloadable format. You can easily download or copy the code from here and use it in your React projects to implement the best practices and design patterns discussed in the article. The examples in this repository demonstrate how to build scalable, maintainable, and high-quality React.js applications, and how to apply these practices in your own projects.
-
-The code examples are separated into three main folders:
-
-## 1. Best Practices
-This folder contains code examples for the following best practices:
-
-1. Small components
-2. Pages and presentational components
-2. DRY with array mapping
-   
-## 3. Separation of Concerns
-This folder contains code examples with the following:
-
-1. Custom hooks
-2. Services
+![Design Patterns](/src/assets/Top-6-React-Design-Patterns.webp)
 
 
-## 3. Design Patterns
-This folder contains code examples for the following design patterns:
+This repository contains the code examples discussed in the article, organized for easy access and use in your own React projects. These examples demonstrate how to build scalable, maintainable, and high-quality React applications, implementing best practices and design patterns.
 
-1. Higher-Order Components (HOC)
-2. Render Props
-3. Compound Components
-4. Memo
-5. React.Lazy
-6. Context
-7. Reducers
-8. Keys
+## Repository Structure
 
-## Usage
-You can use the code examples in this repository as needed in your React projects. Simply navigate to the appropriate folder and use the code as needed in your own project. 
+The examples are organized into three main sections:
 
-Be sure to read the article for more detailed explanations and best practices for each topic.
+### 1. Best Practices
+This section demonstrates essential best practices for writing clean and maintainable React code:
+
+- Small components
+- Pages and presentational components
+- DRY (Don't Repeat Yourself) using array mapping
+
+### 2. Separation of Concerns
+This section illustrates the separation of concerns using custom hooks and service layers:
+
+- Custom hooks
+- Service layers
+
+### 3. Design Patterns
+This section showcases commonly used React design patterns for building flexible, reusable components:
+
+1. **Higher Order Components (HOC)**  
+   A pattern for reusing component logic without modifying the original component.
+
+2. **Presentational and Container Components**  
+   Separates concerns by dividing components into two categories: presentational (UI) and container (logic) components.
+
+3. **Provider Pattern**  
+   Shares data across your app’s components, often implemented using React's `Context API`.
+
+4. **Compound Component Pattern**  
+   Groups multiple related components to create a cohesive user interface, allowing them to work together seamlessly.
+
+5. **React Hooks**  
+   Demonstrates how hooks like `useState`, `useEffect`, and `useContext` enhance state management, side effects, and information sharing between components.
+
+6. **Conditional Rendering Pattern**  
+   Renders different UI based on conditions, such as user roles or application states.
+
+---
+
+## Key Benefits of React Design Patterns
+
+### 1. Reusability
+React design patterns emphasize creating reusable components, allowing for faster feature development and reduced duplication of code. Examples like Render Props and Compound Components help encapsulate functionality into independent components, lowering the risk of bugs and enhancing maintainability.
+
+### 2. Maintainability
+Clear and organized code is vital for long-term project health. Patterns like the Container-Presentational pattern help separate data handling from UI concerns, making your codebase easier to modify, test, and scale.
+
+### 3. Scalability
+Design patterns promote modularity, allowing your application to grow while maintaining efficiency. By using reusable hooks, services, and patterns like the Provider, your app can handle increased complexity and traffic without major refactoring.
+
+### 4. Code Organization
+Efficient code organization is key to cleaner, more readable applications. Patterns such as Compound Components group related functionality, keeping your codebase well-structured and easier to navigate.
+
+### 5. Performance Optimization
+Patterns like Render Props help avoid unnecessary re-renders and improve component rendering efficiency, leading to faster and more responsive applications.
+
+---
+
+## Running the Code
+
+To explore the examples in this repository, follow these steps:
+
+1. Clone the repository.
+2. Install the dependencies:
+   ```bash
+   yarn install
